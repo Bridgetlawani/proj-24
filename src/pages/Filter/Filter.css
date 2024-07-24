@@ -1,0 +1,49 @@
+.tryout-div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.tryout1-div{
+    display: flex;
+    padding: 12px;
+    
+}
+.tryout2-div{
+    display: flex;
+    flex-direction: row;
+}
+
+table {
+    width: 900px;
+    height: 800px;
+    border-collapse: collapse;
+  }
+  th{
+      text-align: left;
+      padding: 0 2rem;
+      
+  }
+  
+  
+  td {
+    text-align: left;
+    border-bottom: 1px solid #545F7D;
+    padding: 0 1rem;
+    font-size: 12px;
+  }
+  .no-border{
+    border-bottom: none;
+}
+.react-icon{
+    color: #545F7D;
+}
+.color-tryout{
+    background-color: #e9edf7;
+    color: #545F7D;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    font-size: 14px;
+    /* line-height: 16.42px; */
+    font-weight: lighter;
+    text-align: center;
+}

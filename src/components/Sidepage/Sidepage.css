@@ -1,12 +1,25 @@
+.main-side-wrap{
+    display: flex;
+    padding-bottom: 0%;
+
+}
 .sidepage-wrap{
     display: flex;
     flex-direction: column;
-    margin-left: 15rem;
-    margin-right: 4rem;
-    width: 80%;
+    margin-left: 7rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 3rem;
+    width: 100%;
+    height: 80%;
+    
 }
 .arrow-wrap{
     display: flex;
+    
+}
+.arrow-wrap p{
+    text-align: right;
 }
 .details-wrap{
     width: 66%;
@@ -43,8 +56,8 @@
     border-bottom: 1px solid #39CDCC;
 }
 .side1-div{
-    width: 66%;
-    height: 70%;
+    width: 67%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -53,7 +66,9 @@
 }
 .side2-div{
     display: flex;
+    justify-content: space-around;
     margin-right: 13rem;
+    width: 80%;
     
 }
 .user-side-img{
@@ -64,16 +79,25 @@
     margin-top: 1rem;
 
 }
+#user-color{
+    background-color: #d2f5f5;
+    border-left: 2px solid #39CDCC;
+    width: 105%;
+    margin-left: 0%;
+    padding-left: 0%;
+
+}
 .general-wrap{
     display: flex;
     justify-content: space-between;
 }
 .side4-wrap{
     width: 70%;
-    height: 30%;
+    height: 80%;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border-radius: 12px;
-    margin-bottom: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
 
 }
 .side4-div{
@@ -110,4 +134,53 @@
     font-weight: 500;
 
 
+}
+
+.element-wrap{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: #fff;
+    margin-bottom: 0;
+}
+#element-wrap{
+    height: 100%;
+    width: 283px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 15px;
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+.third-div, .first-div, .second-div, .logout-div , .version-div{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+.third-div p, .first-div p, .second-div p , .logout-div p, .version-div p{
+    margin-left: .5rem;
+}
+.header3{
+    text-align: left;
+    color: #545F7D;
+    font-size: 12px;
+}
+p{
+    color: #213F7D;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.providus-txt{
+    color: #213F7D;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.81px;
 }

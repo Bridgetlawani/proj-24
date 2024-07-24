@@ -20,10 +20,16 @@
 .third-div, .first-div, .second-div{
     display: flex;
     flex-direction: row;
+       
+}
+.third-div, .first-div, .second-div{
+    display: flex;
+    flex-direction: row;
     
     
     
 }
+
 .header3{
     text-align: left;
     color: #545F7D;

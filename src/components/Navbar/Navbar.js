@@ -14,8 +14,8 @@ function Navbar() {
             <img src={logo} alt='logo' className='logo-img'/>
             <p className='logo-text'>lendsqr</p>
         </div>
-        <div>
-            <label  className='input-div'>
+        <div className='input-div-logo'>
+            <label  className='input-label'>
                 <input type='search' placeholder='Search for anything' className='search'/>
                 <img src={navlogo} alt='nav-img' className='search-icon'/>
             </label>
@@ -23,11 +23,22 @@ function Navbar() {
         </div>
         <div className='nav-div'>
             {/* <Link>Docs</Link> */}
+            <div>
             <p>Docs</p>
+            </div>
+            <div>
             <img src={vector} alt='vector' className='vector-img'/>
+            </div>
+            <div>
             <img src={user} alt='user' className='user-img'/>
+            </div>
+            <div className='deji-div'>
             <p>Adedeji</p>
             <img src={arrow} alt='arrow' className='arrow-img'/>
+            </div> 
+            <div>
+            
+            </div>
         </div>
     </div>
   )

@@ -43,7 +43,7 @@ function Elements() {
         </div>
         <div className='third-div'>
             <img src={users} alt='users' className='users-img'/>
-            <p>Users</p>
+            <p className='user-color'>Users</p>
         </div>
         <div className='third-div'>
             <img src={guarantor} alt='guarantor' className='guarantor-img'/>

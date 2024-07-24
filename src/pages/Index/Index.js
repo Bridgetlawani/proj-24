@@ -1,14 +1,16 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
-import Elements from '../../components/Elements/Elements'
-import Main from '../../components/Main/Main'
+import Userpage from '../../components/Userpage/Userpage'
+// import Elements from '../../components/Elements/Elements'
+// import Main from '../../components/Main/Main'
 
 function Index() {
   return (
     <div>
         <Navbar/>
-        <Main/>
-        <Elements/>
+        <Userpage/>
+        {/* <Main/>
+        <Elements/> */}
         
 
     </div>

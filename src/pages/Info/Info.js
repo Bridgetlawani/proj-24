@@ -1,5 +1,5 @@
 import React from 'react'
-import Elements from '../../components/Elements/Elements'
+// import Elements from '../../components/Elements/Elements'
 import Navbar from '../../components/Navbar/Navbar'
 import Sidepage from '../../components/Sidepage/Sidepage'
 
@@ -8,7 +8,7 @@ function Info() {
     <div>
         <Navbar/>
         <Sidepage/>
-        <Elements/>
+        {/* <Elements/> */}
     </div>
 
   )
