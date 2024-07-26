@@ -31,7 +31,7 @@ function Home() {
             <label> 
                 <input type="password"
                     name='password'
-                    placeholder='Password' />
+                    placeholder='Password' /> <span className='show-txt'>SHOW</span>
             </label>
             <p className='paragraph2'>FORGOT PASSWORD?</p>
             

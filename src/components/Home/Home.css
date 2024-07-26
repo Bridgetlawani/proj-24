@@ -1,8 +1,7 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
-.info-wrapper {
+body{
+    font-family: "Work Sans", sans-serif;
+  }
+  .info-wrapper {
     display: flex;
     background-color: #fff;
     width: 100px;
@@ -77,6 +76,8 @@ input{
     border: none;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: 14px;
+    font-weight: 200;
 
     
 }
@@ -96,5 +97,15 @@ input{
     font-size: 12px;
     font-weight: 600;
     text-align: left;
+
+}
+.show-txt{
+    position: relative;
+    color: #39CDCC;
+    left: 16.8rem;
+    bottom: 1.5rem;
+    font-size: 12px;
+    font-weight: 600;
+    
 
 }
