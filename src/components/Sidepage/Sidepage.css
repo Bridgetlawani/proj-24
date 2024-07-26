@@ -1,3 +1,6 @@
+body{
+    font-family: "Work Sans", sans-serif;
+  }
 .main-side-wrap{
     display: flex;
     padding-bottom: 0%;
