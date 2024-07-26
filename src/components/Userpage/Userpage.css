@@ -92,6 +92,14 @@ body{
 .user-wrap{
     display: flex;
 }
+#user-color{
+    background-color: #d2f5f5;
+    border-left: 2px solid #39CDCC;
+    width: 105%;
+    margin-left: 0%;
+    padding-left: 0%;
+
+}
 h3{
     color: #213F7D;
     text-align: center;

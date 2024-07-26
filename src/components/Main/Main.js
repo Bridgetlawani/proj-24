@@ -57,7 +57,7 @@ function Main() {
             <div>
                 <h3 className='header3' >CUSTOMERS</h3>
             </div>
-            <div className='third-div'>
+            <div className='third-div'  id='user-color'>
                 <img src={users} alt='users' className='users-img'/>
                 <p>Users</p>
             </div>

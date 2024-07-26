@@ -52,3 +52,11 @@ body{
 .no-border{
     font-weight: 600;
 }
+#user-color{
+    background-color: #d2f5f5;
+    border-left: 2px solid #39CDCC;
+    width: 105%;
+    margin-left: 0%;
+    padding-left: 0%;
+
+}
