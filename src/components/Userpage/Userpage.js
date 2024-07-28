@@ -281,13 +281,13 @@ function Userpage() {
                         <td><img src={doticon} alt='icon' className='icon'/></td>
                         </tr>
                         <tr>
-                        <td className='no-border'>Lendsqr</td>
-                        <td className='no-border'>Grace Effiom</td>
-                        <td className='no-border'>grace@lendsqr.com</td>
-                        <td className='no-border'>08160780928</td>
-                        <td className='no-border'>April, 30 2020 10am</td>
-                        <td className='no-border' id='main-btn1'>Inactive</td>
-                        <td className='no-border'><img src={doticon} alt='icon' className='icon'/></td>
+                        <td className='no-border-line'>Lendsqr</td>
+                        <td className='no-border-line'>Grace Effiom</td>
+                        <td className='no-border-line'>grace@lendsqr.com</td>
+                        <td className='no-border-line'>08160780928</td>
+                        <td className='no-border-line'>April, 30 2020 10am</td>
+                        <td className='no-border-line' id='main-btn1'>Inactive</td>
+                        <td className='no-border-line'><img src={doticon} alt='icon' className='icon'/></td>
                         </tr>
                     </table>
                                               

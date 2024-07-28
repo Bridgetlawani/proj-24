@@ -68,6 +68,8 @@ table {
 .filter-div label{
     color: #545F7D;
     margin-top: 5px;
+    font-weight: 500;
+    font-size: 14px;
 }
 .filter-div input{
     color: #545F7D;
