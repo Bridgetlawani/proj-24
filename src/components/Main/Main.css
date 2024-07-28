@@ -6,16 +6,65 @@ body{
     margin: auto 5rem;
     width: 80%;
 }
+.user2-wrap-filter{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    margin-top: 0%;
+    margin-bottom: 10px;
+    
+   
+}
+
+.main-wrap-filter{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 12px;
+    margin-top: 4rem;
+    
+    
+
+    
+}
 .filter-div{
     position: relative;
-    height: 33rem;
+    height: 29rem;
     width: 279px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     background-color: #fff;
-    bottom: 38rem;
-    left: 2rem;
+    bottom: 0.6rem;
+    top: 8rem;
+    left: 22px;
     padding-top: 22px;
 }
+table {
+    width: 900px;
+    height: 100%;
+    border-collapse: collapse;
+  }
+  th{
+      text-align: left;
+      padding: 0;
+      
+  } 
+  
+  td {
+    text-align: left;
+    border-bottom: 1px thin #545F7D;
+    padding: 0;
+    font-size: 14px;
+    color: #545F7D;
+
+  }
+  th td{
+      padding: 5px;
+  }
 .filter-div label{
     color: #545F7D;
     margin-top: 5px;
@@ -24,21 +73,25 @@ body{
     color: #545F7D;
    
 }
+.filter-int{
+    width: 80%;
+}
 .filter-div2{
     position: relative;
     height: 7rem;
     width: 8rem;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     background-color: #fff;
-    bottom: 70rem;
-    left: 40rem;
+    bottom: 15rem;
+    left: 37rem;
     padding: .2rem;
 
 }
 .reset{
     width: 98px;
     padding: 13px;
-    margin-right: 6px;
+    margin-right: 10px;
+    margin-left: 18px;
     border: 1px solid #545F7D
 }
 .reset2-btn{
@@ -52,6 +105,9 @@ body{
 .no-border{
     font-weight: 600;
 }
+.no-border-line{
+    border-bottom: none;
+}
 #user-color{
     background-color: #d2f5f5;
     border-left: 2px solid #39CDCC;
@@ -59,4 +115,9 @@ body{
     margin-left: 0%;
     padding-left: 0%;
 
+}
+.span-down{
+    position: relative;
+    right: 2rem;
+    color: #9a9faa;
 }

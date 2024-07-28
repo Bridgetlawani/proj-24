@@ -158,7 +158,7 @@ function Main() {
 
 
         </div>
-        <div className='user2-wrap'>
+        <div className='user2-wrap-filter'>
             <div className='main'>
                 <div className='main2'>
                     <div>
@@ -187,157 +187,166 @@ function Main() {
                         </div>
                     </div>
                     <div>
-                        <div className='main-wrap'>
-                    <table>
-                        <tr > 
-                        <td className='no-border'>
-                        ORGANIZATION <FaAlignCenter className='react-icon' />
-                        </td>
-                        <td className='no-border'>
-                            USERNAME  <FaAlignCenter className='react-icon' />
-                        </td>
-                        
-                        <td className='no-border'>
-                            EMAIL  <FaAlignCenter className='react-icon' />
+                        <div className='main-wrap-filter'>
+                            <table>
+                                <tr > 
+                                <td className='no-border'>
+                                ORGANIZATION <FaAlignCenter className='react-icon' />
+                                </td>
+                                <td className='no-border'>
+                                    USERNAME  <FaAlignCenter className='react-icon' />
+                                </td>
+                                
+                                <td className='no-border'>
+                                    EMAIL  <FaAlignCenter className='react-icon' />
 
-                        </td>
-                        <td className='no-border'>
-                            PHONE NUMBER  <FaAlignCenter className='react-icon' />
-                        </td>
-                        <td className='no-border'>
-                            DATE JOINED  <FaAlignCenter className='react-icon' />
+                                </td>
+                                <td className='no-border'>
+                                    PHONE NUMBER  <FaAlignCenter className='react-icon' />
+                                </td>
+                                <td className='no-border'>
+                                    DATE JOINED  <FaAlignCenter className='react-icon' />
 
-                        </td>
-                        <td className='no-border'>
-                            STATUS <FaAlignCenter className='react-icon' />
+                                </td>
+                                <td className='no-border'>
+                                    STATUS <FaAlignCenter className='react-icon' />
 
-                        </td>
-                     </tr>
-                    <tr>
-                    <td>Lendsqr</td>
-                    <td>Adedeji</td>
-                    <td>adedeji@lendsqr.com</td>
-                    <td>08078903721</td>
-                    <td>May 15, 2020 10am</td>
-                    <td className='main-btn1'>Inactive</td>
-                    <td><img src={doticon} alt='icon' className='icon'/></td>
-                    </tr>
-                    <tr>
-                    <td>Irorun</td>
-                    <td>Debby Ogana</td>
-                    <td>debby2@irorun.com</td>
-                    <td>08160780928</td>
-                    <td>April, 30 2020 10am</td>
-                    <td className='main-btn2'>Pending</td>
-                    <td><img src={doticon} alt='icon' className='icon'/></td>
-                    </tr>
-                    <tr>
-                    <td>Lendsqr</td>
-                    <td>Grace Effiom</td>
-                    <td>grace@lendsqr.com</td>
-                    <td>08160780928</td>
-                    <td>April, 30 2020 10am</td>
-                    <td className='main-btn3'>Blacklisted</td>
-                    <td><img src={doticon} alt='icon' className='icon'/></td>
-                    </tr>
-                    <tr>
-                    <td>Lendsqr</td>
-                    <td>Tosin Dokunmu</td>
-                    <td>tosin@lendsqr.com</td>
-                    <td>07003309226</td>
-                    <td>April, 30 2020 10am</td>
-                    <td className='main-btn2'>Pending</td>
-                    <td><img src={doticon} alt='icon' className='icon'/></td>
-                    </tr>
-                    <tr>
-                    <td>Lendsqr</td>
-                    <td>Grace Effiom</td>
-                    <td>grace@lendsqr.com</td>
-                    <td>08160780928</td>
-                    <td>April, 30 2020 10am</td>
-                    <td className='main-btn4'>Active</td>
-                    <td><img src={doticon} alt='icon' className='icon'/></td>
-                    </tr>
-                    <tr>
-                    <td>Lendsqr</td>
-                    <td>Tosin Dokunmu</td>
-                    <td>tosin@lendsqr.com</td>
-                    <td>07003309226</td>
-                    <td>April, 30 2020 10am</td>
-                    <td className='main-btn4'>Active</td>
-                    <td><img src={doticon} alt='icon' className='icon'/></td>
-                    </tr>
-                    <tr>
-                    <td>Lendsqr</td>
-                    <td>Grace Effiom</td>
-                    <td>grace@lendsqr.com</td>
-                    <td>08160780928</td>
-                    <td>April, 30 2020 10am</td>
-                    <td className='main-btn3'>Blacklisted</td>
-                    <td><img src={doticon} alt='icon' className='icon'/></td>
-                    </tr>
-                    <tr>
-                    <td>Lendsqr</td>
-                    <td>Tosin Dokunmu</td>
-                    <td>tosin@lendsqr.com</td>
-                    <td>07003309226</td>
-                    <td>April, 30 2020 10am</td>
-                    <td className='main-btn1'>Inactive</td>
-                    <td><img src={doticon} alt='icon' className='icon'/></td>
-                    </tr>
-                    <tr>
-                    <td className='no-border'>Lendsqr</td>
-                    <td className='no-border'>Grace Effiom</td>
-                    <td className='no-border'>grace@lendsqr.com</td>
-                    <td className='no-border'>08160780928</td>
-                    <td className='no-border'>April, 30 2020 10am</td>
-                    <td className='no-border' id='main-btn1'>Inactive</td>
-                    <td className='no-border'><img src={doticon} alt='icon' className='icon'/></td>
-                    </tr>
-                 </table>
+                                </td>
+                            </tr>
+                            <tr>
+                            <td>Lendsqr</td>
+                            <td>Adedeji</td>
+                            <td>adedeji@lendsqr.com</td>
+                            <td>08078903721</td>
+                            <td>May 15, 2020 10am</td>
+                            <td className='main-btn1'>Inactive</td>
+                            <td><img src={doticon} alt='icon' className='icon'/></td>
+                            </tr>
+                            <tr>
+                            <td>Irorun</td>
+                            <td>Debby Ogana</td>
+                            <td>debby2@irorun.com</td>
+                            <td>08160780928</td>
+                            <td>April, 30 2020 10am</td>
+                            <td className='main-btn2'>Pending</td>
+                            <td><img src={doticon} alt='icon' className='icon'/></td>
+                            </tr>
+                            <tr>
+                            <td>Lendsqr</td>
+                            <td>Grace Effiom</td>
+                            <td>grace@lendsqr.com</td>
+                            <td>08160780928</td>
+                            <td>April, 30 2020 10am</td>
+                            <td className='main-btn3'>Blacklisted</td>
+                            <td><img src={doticon} alt='icon' className='icon'/></td>
+                            </tr>
+                            <tr>
+                            <td>Lendsqr</td>
+                            <td>Tosin Dokunmu</td>
+                            <td>tosin@lendsqr.com</td>
+                            <td>07003309226</td>
+                            <td>April, 30 2020 10am</td>
+                            <td className='main-btn2'>Pending</td>
+                            <td><img src={doticon} alt='icon' className='icon'/></td>
+                            </tr>
+                            <tr>
+                            <td>Lendsqr</td>
+                            <td>Grace Effiom</td>
+                            <td>grace@lendsqr.com</td>
+                            <td>08160780928</td>
+                            <td>April, 30 2020 10am</td>
+                            <td className='main-btn4'>Active</td>
+                            <td><img src={doticon} alt='icon' className='icon'/></td>
+                            </tr>
+                            <tr>
+                            <td>Lendsqr</td>
+                            <td>Tosin Dokunmu</td>
+                            <td>tosin@lendsqr.com</td>
+                            <td>07003309226</td>
+                            <td>April, 30 2020 10am</td>
+                            <td className='main-btn4'>Active</td>
+                            <td><img src={doticon} alt='icon' className='icon'/></td>
+                            </tr>
+                            <tr>
+                            <td>Lendsqr</td>
+                            <td>Grace Effiom</td>
+                            <td>grace@lendsqr.com</td>
+                            <td>08160780928</td>
+                            <td>April, 30 2020 10am</td>
+                            <td className='main-btn3'>Blacklisted</td>
+                            <td><img src={doticon} alt='icon' className='icon'/></td>
+                            </tr>
+                            <tr>
+                            <td>Lendsqr</td>
+                            <td>Tosin Dokunmu</td>
+                            <td>tosin@lendsqr.com</td>
+                            <td>07003309226</td>
+                            <td>April, 30 2020 10am</td>
+                            <td className='main-btn1'>Inactive</td>
+                            <td><img src={doticon} alt='icon' className='icon'/></td>
+                            </tr>
+                            <tr>
+                            <td className='no-border-line'>Lendsqr</td>
+                            <td className='no-border-line'>Grace Effiom</td>
+                            <td className='no-border-line'>grace@lendsqr.com</td>
+                            <td className='no-border-line'>08160780928</td>
+                            <td className='no-border-line'>April, 30 2020 10am</td>
+                            <td className='no-border-line' id='main-btn1'>Inactive</td>
+                            <td className='no-border-line'><img src={doticon} alt='icon' className='icon'/></td>
+                            </tr> 
+                        </table>
                                               
                             
-                </div>  
-            <div className='bottom-div'>
-                <div>
-                    <p>Showing <mark>100 < FaAngleDown/> </mark> out of 100</p>
-                </div>
-                <div>
-                    <p> <mark><FaAngleLeft/> </mark> 1 2 3 ... 15 16 <mark><FaAngleRight/> </mark> </p>
-                </div>
-            </div>
-                      <div className='filter-div' >
-                          <label htmlFor='select' id='select'>Organization</label>
-                          <input type='text' placeholder='select'/>
-                          <i> <FaAngleDown/> </i>
+                    </div>  
+                    
+           
+            <div className='filter-div' >
+                          <label htmlFor='select'>Organization</label>
+                    
+                          <input type='text' placeholder='select' className='filter-int'/>
+                          <span> <FaAngleDown className='span-down'/> </span>
                           <label>Username</label>
-                          <input type='text' placeholder='User'/>
+                          <input type='text' placeholder='User'  className='filter-int'/>
                           <label>Email</label>
-                          <input type='text' placeholder='Email'/>
+                          <input type='text' placeholder='Email'  className='filter-int'/>
                           <label>Date</label>
-                          <FaCalendarAlt className='calendar-icon'/>
-
-                          <input type='text' placeholder='Date'/> 
+                          
+                          <input type='text' placeholder='Date' className='filter-int' /> 
+                          <span><FaCalendarAlt className='span-down'/>  </span>
+                                                                           
                           
                           <label>Phone Number</label>
-                          <input type='text' placeholder='Phone Number'/>
+                          <input type='text' placeholder='Phone Number'  className='filter-int'/>
                           <label>Staus</label>
-                          <input type='text' placeholder='select'/> <span> <FaAngleDown/> </span>
+                          <input type='text' placeholder='select'  className='filter-int'/> <span> <FaAngleDown className='span-down'/> </span>
                           <br/>
                           <input type='submit' value='Reset' className='reset'/>
                           <input type='submit' value='Filter' className='reset2-btn'/>
-                        </div>  
+            </div>  
                         <div className='filter-div2'>
                             <p> <FaRegEye/> View Details </p>
                             <p> <FaUserSlash/> Blacklist User</p>
                             <p> <FaUserCheck/> Activate User </p>
                         </div>
+
+                        <div className='bottom-div'>
+                        <div>
+                            <p>Showing <mark>100 < FaAngleDown/> </mark> out of 100</p>
+                        </div>
+                        <div>
+                            <p> <mark><FaAngleLeft/> </mark> 1 2 3 ... 15 16 <mark><FaAngleRight/> </mark> </p>
+                        </div>
                     </div>
+                    </div>
+            
                             
                 </div>
+            
             </div>
+            
            
         </div>
+       
         
     </div>
    
